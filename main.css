@@ -26,7 +26,7 @@ body {
 .contact {
   width: 95%;
   margin: 1.5rem auto;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
 }
 
@@ -50,6 +50,67 @@ a {
 
 a:hover {
   color: #eda087;
-  transition: color .15s ease-in-out;
+  transition: color .18s ease-in-out;
 }
+
+/* Header Styles */
+
+.cover {
+  background: url('assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: 0.625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0; 
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: 0.5rem auto;
+}
+
+.date {
+  vertical-align: middle;
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 0.5rem;
+}
+
 

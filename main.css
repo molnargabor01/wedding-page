@@ -115,6 +115,32 @@ a:hover {
   margin: 0 0.5rem;
 }
 
+/* Programs */
+
+.program {
+  width: 100vw;
+  text-align: left;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+}
+
+.program h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.program p {
+  font-style: italic;
+}
+
+.program ul {
+  letter-spacing: 0.03rem;
+}
+
+
+
 
 
 

@@ -82,8 +82,10 @@ a:hover {
 }
 
 .tagline {
+  text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: .15rem;
+  
 }
 
 .tagline::after {
@@ -112,5 +114,7 @@ a:hover {
   vertical-align: middle;
   margin: 0 0.5rem;
 }
+
+
 
 

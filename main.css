@@ -120,6 +120,7 @@ a:hover {
 .program {
   width: 100vw;
   text-align: left;
+  align-items: center;
   background: hsla(100,0%,0%,.6);
   color: #d2ba87;
   font-family: 'Muli', sans-serif;
@@ -137,6 +138,7 @@ a:hover {
 
 .program ul {
   letter-spacing: 0.03rem;
+  
 }
 
 /* locations */
@@ -162,6 +164,23 @@ a:hover {
   margin: 1.5rem auto;
   background-color: #444349;
 }
+
+/* Gifts */
+
+.gifts img {
+  height: 7.5rem;
+}
+
+.gifts p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
 
 
 

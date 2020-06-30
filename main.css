@@ -82,7 +82,7 @@ a:hover {
 }
 
 .tagline {
-  text-transform: uppercase;
+  
   font-size: 1.25rem;
   letter-spacing: .15rem;
   
@@ -115,6 +115,37 @@ a:hover {
   margin: 0 0.5rem;
 }
 
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
+
+
 /* Programs */
 
 .program {
@@ -141,6 +172,16 @@ a:hover {
   
 }
 
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+}
+
+
 /* locations */
 
 .blurb img {
@@ -163,6 +204,21 @@ a:hover {
   width: 25vw;
   margin: 1.5rem auto;
   background-color: #444349;
+}
+
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
 }
 
 /* Gifts */
@@ -211,6 +267,27 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 768px) {
+
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+
+}
+
+
 /* Footer */
 
 footer {
@@ -237,6 +314,16 @@ footer p {
 footer small {
   line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
+}
+
+
 
 
 
